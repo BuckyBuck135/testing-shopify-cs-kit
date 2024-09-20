@@ -14,7 +14,6 @@
         overflow: hidden;
     }
     #banner-1400 .cs-container {
-        text-align: center;
         width: 100%;
         max-width: 80rem;
         margin: auto;
@@ -43,7 +42,6 @@
     #banner-1400 .cs-link {
         font-size: 1rem;
         line-height: 1.2em;
-        text-decoration: none;
         color: var(--bodyTextColorWhite);
         display: flex;
         justify-content: center;
@@ -543,6 +541,8 @@
     #sbs-1640 .cs-title {
         margin: 0 0 2.5rem 0;
         color: var(--bodyTextColorWhite);
+        text-wrap: balance;
+        word-wrap: normal;
     }
     #sbs-1640 .cs-text {
         margin-bottom: 1rem;
